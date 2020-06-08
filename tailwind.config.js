@@ -14,7 +14,8 @@ module.exports = {
       tertiary: "var(--color-bg-tertiary)",
       default: "var(--color-bg-default)",
       btnPrimary:"var(--color-btn-primary)",
-      btnSecondary:"var(--color-btn-secopndary)",
+      btnSecondary:"var(--color-btn-secondary)",
+      btnDefault:"var(--color-btn-default)",
     },
     borderColor: {
       primary:"var(--color-border-primary)",

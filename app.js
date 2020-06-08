@@ -3,7 +3,11 @@ var d = document.documentElement,
   m = localStorage.getItem('theme');
 
 if (m == 'dark') {
-  d.classList.add('theme-dark'); 
+  d.classList.add('theme-dark');
+  t.textContent='Dark';
+}
+else{
+  t.textContent='Light';
 }
 
 
