@@ -11,7 +11,8 @@
   --color-text-default: #FFFFFF;
   --color-btn-primary: #EDF2F7;
   --color-btn-secondary: #E2E8F0;
-  --color-border-primary: #F7FAFC;
+  --color-btn-default: #3182CE;
+  --color-border-primary: #E2E8F0;
   --color-border-secondary: #CBD5E0;
   --font-display: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -30,6 +31,7 @@
   --color-text-default: #FFFFFF;
   --color-btn-primary: #2D3748;
   --color-btn-secondary: #4A5568;
+  --color-btn-default: #3182CE;
   --color-border-primary: #2D3748;
   --color-border-secondary: #4A5568;
   --font-display: Georgia, Times, 'Times New Roman', serif;
@@ -1279,7 +1281,11 @@ video {
 }
 
 .bg-btnSecondary{
-  background-color: var(--color-btn-secopndary);
+  background-color: var(--color-btn-secondary);
+}
+
+.bg-btnDefault{
+  background-color: var(--color-btn-default);
 }
 
 .hover\:bg-primary:hover{
@@ -1303,7 +1309,11 @@ video {
 }
 
 .hover\:bg-btnSecondary:hover{
-  background-color: var(--color-btn-secopndary);
+  background-color: var(--color-btn-secondary);
+}
+
+.hover\:bg-btnDefault:hover{
+  background-color: var(--color-btn-default);
 }
 
 .focus\:bg-primary:focus{
@@ -1327,7 +1337,11 @@ video {
 }
 
 .focus\:bg-btnSecondary:focus{
-  background-color: var(--color-btn-secopndary);
+  background-color: var(--color-btn-secondary);
+}
+
+.focus\:bg-btnDefault:focus{
+  background-color: var(--color-btn-default);
 }
 
 .bg-opacity-0{
@@ -8439,7 +8453,11 @@ video {
   }
 
   .sm\:bg-btnSecondary{
-    background-color: var(--color-btn-secopndary);
+    background-color: var(--color-btn-secondary);
+  }
+
+  .sm\:bg-btnDefault{
+    background-color: var(--color-btn-default);
   }
 
   .sm\:hover\:bg-primary:hover{
@@ -8463,7 +8481,11 @@ video {
   }
 
   .sm\:hover\:bg-btnSecondary:hover{
-    background-color: var(--color-btn-secopndary);
+    background-color: var(--color-btn-secondary);
+  }
+
+  .sm\:hover\:bg-btnDefault:hover{
+    background-color: var(--color-btn-default);
   }
 
   .sm\:focus\:bg-primary:focus{
@@ -8487,7 +8509,11 @@ video {
   }
 
   .sm\:focus\:bg-btnSecondary:focus{
-    background-color: var(--color-btn-secopndary);
+    background-color: var(--color-btn-secondary);
+  }
+
+  .sm\:focus\:bg-btnDefault:focus{
+    background-color: var(--color-btn-default);
   }
 
   .sm\:bg-opacity-0{
@@ -15600,7 +15626,11 @@ video {
   }
 
   .md\:bg-btnSecondary{
-    background-color: var(--color-btn-secopndary);
+    background-color: var(--color-btn-secondary);
+  }
+
+  .md\:bg-btnDefault{
+    background-color: var(--color-btn-default);
   }
 
   .md\:hover\:bg-primary:hover{
@@ -15624,7 +15654,11 @@ video {
   }
 
   .md\:hover\:bg-btnSecondary:hover{
-    background-color: var(--color-btn-secopndary);
+    background-color: var(--color-btn-secondary);
+  }
+
+  .md\:hover\:bg-btnDefault:hover{
+    background-color: var(--color-btn-default);
   }
 
   .md\:focus\:bg-primary:focus{
@@ -15648,7 +15682,11 @@ video {
   }
 
   .md\:focus\:bg-btnSecondary:focus{
-    background-color: var(--color-btn-secopndary);
+    background-color: var(--color-btn-secondary);
+  }
+
+  .md\:focus\:bg-btnDefault:focus{
+    background-color: var(--color-btn-default);
   }
 
   .md\:bg-opacity-0{
@@ -22761,7 +22799,11 @@ video {
   }
 
   .lg\:bg-btnSecondary{
-    background-color: var(--color-btn-secopndary);
+    background-color: var(--color-btn-secondary);
+  }
+
+  .lg\:bg-btnDefault{
+    background-color: var(--color-btn-default);
   }
 
   .lg\:hover\:bg-primary:hover{
@@ -22785,7 +22827,11 @@ video {
   }
 
   .lg\:hover\:bg-btnSecondary:hover{
-    background-color: var(--color-btn-secopndary);
+    background-color: var(--color-btn-secondary);
+  }
+
+  .lg\:hover\:bg-btnDefault:hover{
+    background-color: var(--color-btn-default);
   }
 
   .lg\:focus\:bg-primary:focus{
@@ -22809,7 +22855,11 @@ video {
   }
 
   .lg\:focus\:bg-btnSecondary:focus{
-    background-color: var(--color-btn-secopndary);
+    background-color: var(--color-btn-secondary);
+  }
+
+  .lg\:focus\:bg-btnDefault:focus{
+    background-color: var(--color-btn-default);
   }
 
   .lg\:bg-opacity-0{
@@ -29922,7 +29972,11 @@ video {
   }
 
   .xl\:bg-btnSecondary{
-    background-color: var(--color-btn-secopndary);
+    background-color: var(--color-btn-secondary);
+  }
+
+  .xl\:bg-btnDefault{
+    background-color: var(--color-btn-default);
   }
 
   .xl\:hover\:bg-primary:hover{
@@ -29946,7 +30000,11 @@ video {
   }
 
   .xl\:hover\:bg-btnSecondary:hover{
-    background-color: var(--color-btn-secopndary);
+    background-color: var(--color-btn-secondary);
+  }
+
+  .xl\:hover\:bg-btnDefault:hover{
+    background-color: var(--color-btn-default);
   }
 
   .xl\:focus\:bg-primary:focus{
@@ -29970,7 +30028,11 @@ video {
   }
 
   .xl\:focus\:bg-btnSecondary:focus{
-    background-color: var(--color-btn-secopndary);
+    background-color: var(--color-btn-secondary);
+  }
+
+  .xl\:focus\:bg-btnDefault:focus{
+    background-color: var(--color-btn-default);
   }
 
   .xl\:bg-opacity-0{
