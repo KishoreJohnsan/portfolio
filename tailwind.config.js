@@ -1,6 +1,13 @@
 module.exports = {
   purge: ["*.html"],
-  theme: {
+  theme: {  
+    screens: {
+      'xs': '360px',    
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',      
+    },
     colors: {},
     textColor: {
       primary: "var(--color-text-primary)",
@@ -22,7 +29,7 @@ module.exports = {
       secondary:"var(--color-border-secondary)"
     },
     fontFamily: {
-      display: ["Gilroy", "sans-serif"],
+      display: ["Carter One", "cursive"],
       body: ["Manrope", "sans-serif"],
     },
   },
