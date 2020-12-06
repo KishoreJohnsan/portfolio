@@ -30,7 +30,8 @@ module.exports = {
     },
     borderColor: {
       primary:"var(--color-border-primary)",
-      secondary:"var(--color-border-secondary)"
+      secondary:"var(--color-border-secondary)",
+      default:"var(--color-border-default)"
     },
     fontFamily: {
       display: ["Carter One", "cursive"],
