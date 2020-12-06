@@ -6,10 +6,10 @@ const myScrollFunc = function () {
   let y = window.scrollY;
   if (y >= 60) {
     header.classList.add('border-b-2');
-    header.classList.add('border-primary');
+    header.classList.add('border-default');
   } else if (y <= 60) {
     header.classList.remove('border-b-2');
-    header.classList.remove('border-primary');
+    header.classList.remove('border-default');
   }
 };
 
